@@ -12,11 +12,12 @@ body{
     padding: 18px 35px;
 }
 /* Common css End */
-/* Header css Start */
+/* Nav css Start */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-title{
     display: flex;
@@ -40,3 +41,17 @@ font-weight: 800;
 .nav-style{
     color: #FD6E0A;
 }
+/* Nav End */
+/* Header Part Start */
+header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+/* .profile_pic{ */
+    /* width: 300px; */
+    /* height: 400px; */
+/* } */
