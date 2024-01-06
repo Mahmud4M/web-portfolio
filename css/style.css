@@ -229,7 +229,58 @@ main {
     margin-top: 20px;
 }
 
-.download-cv{
+.download-cv {
     margin-top: 30px;
     text-align: center;
+}
+
+/* Footet Part */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: #FFF8F3;
+    margin-top: 70px;
+    padding: 130px 200px;
+}
+
+.section_title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section_description {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 0px;
+}
+.social_link{
+    margin-top: 30px;
+}
+.social_link a{
+    margin-right: 18px;
+}
+
+.section_description {
+    width: 562px;
+}
+
+.contact input,
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
 }
