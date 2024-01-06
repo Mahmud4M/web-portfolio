@@ -1,8 +1,9 @@
 /* Common css Start */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.btn-primary{
+
+.btn-primary {
     border: 0;
     border-radius: 5px;
     background: #FD6E0A;
@@ -11,68 +12,80 @@ body{
     font-weight: 700;
     padding: 18px 35px;
 }
+
 /* Common css End */
 /* Nav css Start */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
 }
-.nav-title{
+
+.nav-title {
     display: flex;
     align-items: center;
 }
-.nav-title li{
+
+.nav-title li {
     list-style: none;
     margin-right: 50px;
 }
-.nav-title li a{
+
+.nav-title li a {
     text-decoration: none;
     color: #474747;
     font-size: 20px;
     font-weight: 400;
 }
-h1{
-color: var(--Dark-01, #181818);
-font-size: 45px;
-font-weight: 800;
+
+h1 {
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
 }
-.nav-style{
+
+.nav-style {
     color: #FD6E0A;
 }
+
 /* Nav End */
 /* Header Part Start */
-header{
+header {
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.banner{
+
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .banner_content {
     max-width: 585px;
 }
-.banner_content h3{
+
+.banner_content h3 {
     color: #474747;
     font-family: Open Sans;
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 5px;
 }
-.banner_content h1{
+
+.banner_content h1 {
     color: #181818;
     font-size: 85px;
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.banner_content p{
+
+.banner_content p {
     color: #757575;
     font-size: 18px;
     font-weight: 400;
@@ -82,12 +95,59 @@ header{
 }
 
 /* Main Part Start */
+main {
+    width: 1140px;
+    margin: 0 auto;
+}
 
 /* About Part */
-#about{
+#about {
     background-color: #FFF8F3;
     padding: 130px;
     border-radius: 10px;
     margin: 130px 0;
     text-align: center;
+}
+
+.about_text {
+    margin-bottom: 0px;
+}
+
+.common_head {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.common_text {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_info {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.info_head {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.info_text {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 0px;
 }
