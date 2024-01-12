@@ -3,7 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.btn-primary {
+.button-one, .button-two, .button-three, .button-four, .button-five{
     border: 0;
     border-radius: 5px;
     background: #FD6E0A;
@@ -12,6 +12,7 @@ body {
     font-weight: 700;
     padding: 18px 35px;
 }
+
 
 /* Common css End */
 /* Nav css Start */
@@ -291,6 +292,75 @@ textarea {
 }
 
 @media screen and (max-width: 576px) {
+    header{
+        background: none;
+    }
+    .banner{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .banner_content h1 {
+        font-size: 47px;
+        margin-left: 0px;
+    }
+    .banner_content h3 {
+        font-size: 33px;
+        margin-bottom: 0;
+    }
+    .banner_content p {
+        font-size: 21px;
+        width: 65%;
+    }
+    .nav-title{
+        flex-direction: column;
+    }
+    .banner .profile_pic{
+        width: 100%;
+    }
+    .button-one{
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-bottom: -10px;
+    }
+    .button-two{
+        width: 235px;
+        margin-left: 45px;
+    }
+    .button-three{
+        width: 235px;
+        margin-top: 10px;
+        margin-left: 45px;
+    }
+    .button-four{
+        margin-left: 74px;
+    }
+    .button-five{
+        margin-left: 100px;
+    }
+    .button{
+        display: grid;
+        grid-template-columns: 1;
+    }
+    .banner .profile_pic {
+        width: 50%;
+        margin-top: 20px;
+        margin-bottom: -150px;
+        margin-left: -205px;
+    }
+
+  
+    nav{
+        margin-left: -30px;
+        flex-direction: column;
+    }
+    .nav-title li a {
+        font-size: 26px;
+    }
+    .nav-title li {
+        margin-right: 0px;
+    }
+
+
     .skills_container{
         flex-direction: column;
     }
@@ -311,6 +381,8 @@ textarea {
     .one-two{
         width: 100%;
     }
+
+
     .summ{
         width: 29%;
         padding: 20px;
@@ -319,12 +391,11 @@ textarea {
     .summary_main{
         gap: 25px;
     }
-    .btn-primary {
-        margin-left: 74px;
-    }
     .download-cv {
         text-align: start;
     }
+
+
     footer{
         padding: 10px 20px;
         flex-direction: column;
@@ -336,6 +407,7 @@ textarea {
         width: 48%;
     }
 
+
     #about {
     padding: 20px;
     }
@@ -343,6 +415,7 @@ textarea {
         width: 30%;
     }
     .info-container{
+        width: 30%;
         flex-direction: column;
     }
     .about_info{
