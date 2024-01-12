@@ -284,3 +284,68 @@ textarea {
 textarea {
     resize: none;
 }
+
+/* Respondive Small */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .skills_container{
+        flex-direction: column;
+    }
+    .summary_main{
+        flex-direction: column;
+    }
+    #what_do_description{
+        width: 29%;
+        padding: 20px;
+    }
+    .skill{
+        width: 29%;
+        padding: 20px;
+    }
+    .common_head{
+        width: 30%;
+    }
+    .one-two{
+        width: 100%;
+    }
+    .summ{
+        width: 29%;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    .summary_main{
+        gap: 25px;
+    }
+    .btn-primary {
+        margin-left: 74px;
+    }
+    .download-cv {
+        text-align: start;
+    }
+    footer{
+        padding: 10px 20px;
+        flex-direction: column;
+    }
+    .section_description{
+        width: 60%;
+    }
+    .contact input, textarea {
+        width: 48%;
+    }
+
+    #about {
+    padding: 20px;
+    }
+    .one {
+        width: 30%;
+    }
+    .info-container{
+        flex-direction: column;
+    }
+    .about_info{
+        margin-left: 10px;
+    }
+}
